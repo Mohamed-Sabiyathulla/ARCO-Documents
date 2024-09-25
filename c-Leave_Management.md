@@ -54,9 +54,9 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
     - In this stage, Waiting for the **Customer Approval** in Case and Task Management, Once customer approved in Case and Task Management, then it moved to **Under processing** Stage in HRM.
 
-    - In **Case and Task Management**, Vacation Process will move to Customer Approval stage, then Customer Approve the request from Case and Task Management.
+    - In **Case and Task Management**, Vacation Process will move to Customer Approval stage, then Customer can Approve the request from Case and Task Management.
 
-    - Once Customer Approved the Request, then it will moved to **"UnderProcessing"** Stage in **"Case and Task Management"**.
+    - Once Customer Approved the Request, then it will moved to **"UnderProcessing"** Stage in "Case and Task Management".
 
 
 
@@ -71,7 +71,7 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
 - ### **Under Processing:**
 
-    - In This stage, Waiting to Process the Vacation Settlement in Finance portal.
+    - In This stage, Waiting to Process the Vacation Settlement in **Finance Portal**.
 
     -  In Case and Task Management, waiting the request in **Under Process** stage.
 
@@ -85,9 +85,9 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
     - **(Unpaid vacation is not Applicable to apply for Vacation settlement.)**
 
-    - The **[Vacation Settlement](#vacation-settlement)** process will begins and create from this **Under Processing** stage with System Integration. when the "customer request for Settlement" in Leave Request from **Case and Task Management**.
+    - And Then **[Vacation Settlement](#vacation-settlement)** process will begins and create from this **Under Processing** stage with System Integration. when the "customer request for Settlement" in Leave Request from **Case and Task Management**.
 
-    - If Employee Request, Visa and Travel Request from ARCO, then Visa and Travel process will start for the employee After Vacation settlement is completed with system integration.
+    - If Employee Request, **Visa** and **Travel Request** from **ARCO**, then Visa and Travel process will start for the employee After Vacation settlement is completed with system integration.
 
 
     - **User can move the request to required stage**,
@@ -100,9 +100,9 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
 - ### **Customer Clearance:**
 
-    - In This stage, Waiting to process the customer clearance on Vacation settlement, Once customer clearance completed on Vacation settlement, then it will move to **ARCO clearance** stage.
+    - In This stage, Waiting to process the customer clearance on Vacation settlement, Once customer clearance completed on Vacation settlement, then it will move to **ARCO Clearance** stage.
 
-    - In Case and Task Management, Leave request process will move to **customer confirmation** stage, then Customer will Approve the request from Case and Task Management.
+    - In Case and Task Management, Leave request process will move to **Customer Confirmation** stage, then Customer will Approve the request from Case and Task Management.
     
     - Once Customer Approved in customer confirmation stage , then it will moved to **Approved for payment** Stage in Case and Task Management.
 
@@ -125,12 +125,12 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
       - In **ARCO Clearance**, Waiting to complete the process in **Finance Department**, If The Finance Depart complete the process, then it will move to **Waiting for Travel** stage
 
-    -  **In Case and Task Management**, Leave Request will move to **Approved for Payment** stage.
+    -  **In Case and Task Management**, Leave Request will move to **"Approved for Payment"** stage.
 
        -  Once User Approved from Finance Department in HRM, Then it will moved to **Visa Requested Stage** in Case and Task Management.
 
 
-    - ARCO Clearance is **optional** for employee, it will process who requested the Clearance for settlement in Case and task management.
+    - ARCO Clearance is **optional** for employee, it will process who requested the Clearance for settlement in Case and Task Management.
 
     - Otherwise this clearance stage will be **skipped** and moved completed stage.
 
@@ -145,11 +145,11 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
 - ### **Travel Arrangements:**
 
-    - In This stage, Prepare the Employee to Travel, once Travel Preparation is completed and it will moved to **Waiting for Travel** stage.
+    - In This stage, Prepare the Employee to Travel, once Travel Preparation is completed, Then it will moved to **Waiting for Travel** stage.
 
-    - Travel Arrangements is Applicable for who on accommodate in lodging.
+    - Travel Arrangements is Applicable, to who on Accommodate in lodging.
 
-    - Travel Arrangements is not applicable for who do not accommadate in Lodging.
+    - Travel Arrangements is not Applicable, to who do not Accommadate in Lodging.
 
      - Otherwise this stage **skipped** and moved to **Waiting for Travel** stage.
 
@@ -161,7 +161,7 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
 - ### **Waiting for Travel:**
 
-    - In this stage, when employee went on vacation, Muqeem status will change as **OutsideKingdom** in **Muqeem portal**.
+    - In this stage, when employee went **on vacation**, Muqeem status will change as **OutsideKingdom** in **Muqeem portal**.
 
     - By **System schedule** will check, If **Muqeem status** is **On-Vacation_OutSide Kingdom**, Then *Complete the Vacation Process with Travel Date*.
 
@@ -185,7 +185,7 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
 - ### **Completed:**
 
-    - Completed Request moved to **Completed** Stage, After Vacation Settlement, Visaand Travel Request is completed to Employee Vacation.
+    - Completed Request moved to **Completed** Stage, After Vacation Settlement, Then will start The Visa and Travel Request to Employee for Vacation.
 
     - And System checking on **Muqeem status** on reqular time of period, then **Return process** will start with **Muqeem Status**.
 
@@ -200,11 +200,11 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
 ## **[Vacation Settlement:](#leave-management)**
 
-- Vacation Settlement is initiated in **Case and Task Management**, and Settlement will process in **Finance portal**.
+- Vacation Settlement is initiated in **Case and Task Management**, and Settlement will process in **Finance Department**.
 
--  Vacation settlement process will complete, If Vacation Settlement request is completed in Finance Portal.
+-  Vacation settlement process will complete, If The Settlement request is completed in Finance Portal.
 
-- If The Employee not required the settlement in Leave Request, Then this stage will **Complete without Payment**.
+- If The Employee not required/applied for the settlement in Leave Request, Then this stage will **Complete without Payment**.
 
 
 | [Requested](#requested) > [Clearance Process](#clearance_process) > [Approval](#approval) > [Client_Confirmation](#client_confirmation) > [Payment](#payment) > [Client Rejection](#client-rejection) > [Complete](#complete) |
@@ -217,8 +217,9 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
     - In Case and Task Management, Vacation Process will move to Finance Approval stage.
 
-
     - New Request is waiting for action from case and task management.
+
+    - **User can move the request to next stage**,
 
        - *In The action field is following to,*
 
@@ -308,17 +309,19 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
 ## **[Vacation Return:](#leave-management)**
 
-System will change and update the vacation return process automatically based on muqeem status in reqular basis,
+- Employee should not be pending in **Vacation** or **Retirement** process.
 
-when employee **On Vacation**, muqeem status will be on-vacation Outside Kingdom status,
+- When Employee **On Vacation**, Muqeem status will be **On-Vacation_Outside Kingdom** status,
 
-If Employee arrived, muqeem status will change to the valid then vacation return process will move to **Return from Vacation** stage.
+- If Employee arrived, Muqeem status will change to valid, then **Vacation Return** process will move to **Return from Vacation** stage.
 
-If Exit Re Entry date is expired and muqeem is expired, then that request is moved to **Visa Expired** stage.
+- If Exit Re-Entry Date is expired and Muqeem is expired, then that request is moved to **Visa Expired** stage.
 
-If iqama expiry date is less then 10 days, the request will move to **Iqama Approval cancellation** stage,
+- If Iqama Expiry Date is less then 10 days, the request will move to **Iqama Approval cancellation** stage,
 
-Then User will register "Left Not Return" in muqeem then move to the **Iqma Expiry** date.
+- Then User will register **"Left Not Return"** in Muqeem, then move to the **Iqma Expiry** date.
+
+<br>
 
 | [On Vacation](#on-vacation) > [Waiting for Return](#waiting-for-return) > [Not Return](#not-return) > [Return from Vacation](#return-from-vacation) > [Visa Expired](#visa-expired) > [Iqama Approval Cancellation](#iqama-approval-cancellation) > [Iqama Expired](#iqama-expired) > [Left Not Return](#leftnotreturn) > [Completed](#completed-1) |
 
@@ -327,15 +330,15 @@ Then User will register "Left Not Return" in muqeem then move to the **Iqma Expi
 
 - ### **On Vacation:**
 
-     - When the employee not return after requested return date, system will move to the **Waiting for Return stage**.
+     - When The Employee not return after requested Return Date, System will move to the **Waiting for Return stage**.
 
-     -  In case of employee is on vacation, the Muqeem status will be update on-vacation **OutsideKingdom** status,
+     -  In Case of Employee is on vacation, The Muqeem status will be update **On-Vacation_OutsideKingdom** status,
 
-     - If Employee arrived, muqeem status will change to the valid then vacation return process will move to **Return from vacation** stage.
+     - If Employee arrived, Muqeem status will change to valid, Then Vacation Return process will move to **Return from vacation** stage.
 
      - System will check the muqeem status requlary, until the employee return,
 
-       if vacation end date is mentioned then moved to **Return from Vacation** stage.
+       If vacation end date is mentioned then moved to **Return from Vacation** stage.
 
        - *In The action field is following to,*
 
