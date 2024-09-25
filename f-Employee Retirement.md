@@ -12,15 +12,15 @@
 <br>
 
 
-- The Retirement request is initiated from case and task management.
+- **Retirement** Request is initiated from **Case and Task Management**.
 
-- Employee Should not be pending in Vacation or Retirement process.
+- Employee Should not be pending in **Vacation** or **Retirement** process.
 
-- If employee have ERP access, it should deactivate before request.
+- If Employee have **ERP access,** It should **De-activate** before Request.
 
-- Employee should not in Outside Kingdom.
+- Employee should not be in **Outside Kingdom**.
 
-- Employee should not be Iqama Renewal Process.
+- Employee should not be **Iqama Renewal** Process.
 
 - **(Employee Status will change based on EOS Category:**
 
@@ -34,7 +34,7 @@
 
    - **--If Category is Dead, employee status will change as "  ".)**
 
-* ### _Mandatory field to update while request for Retirment:_
+* ### _Mandatory field to update while Request for Retirement:_
 
     **1- Labour ID,**
 
@@ -42,11 +42,11 @@
 
     **2- Request Date,**
 
-    - Required the Date of Retirement Request for Vacation.
+    - Required the Date of request for Retirement process.
 
     **3- Expected Date of Leaving,**
 
-    - Expected Date of Leaving from Organization.
+    - Expected Date of Leaving from Organization.(Particular Date for Leaving)
 
     **4- EOS Category,**
 
@@ -59,7 +59,7 @@
 
    **5- Settlement Paid by,**
 
-     * Settlement is optional to receive-
+     * Settlement is optional to receive from Employer or Customer-
 
        - _ARCO_ -
        - _Customer_ -
@@ -70,15 +70,15 @@
 
    **7- Need Travel Arrangements,**
 
-   - Travel is Optional to request from Organization in the Retirement to Employee.
+   - Travel is **Optional** to request from Organization in Retirement process to Employee.
 
    **8- Need Exit,**
 
-   - Final Exit Visa is Afford from Organization in the Retirement to Employee.
+   - Final Exit Visa is Afford from Organization in Retirement process to Employee.
 
    **9- Need Clearance,**
 
-  - Clearance is Optional to request from Organization in the Retirement process.
+  - Clearance process is **Optional** to request from Organization in the Retirement process to Employee.
 
 
 
@@ -90,20 +90,26 @@
 
 - ### **New Request:**
 
-    - New request created and initiated in case and task management, and then it will moved to ARCO Approval from case and task management.
+    - New request created and initiated from Case and Task Management.
+    
+    - And User will moved to **ARCO Approval** from **Case and Task Management**.
 
-    - Initiated New request is received from Case and task management for Retirement.
+    - **User can move the request to next stage,**
 
-      - *In The Action field is following to,*
+       - *In The Action field is following to,*
 
-        **1-[Complete](#arco-approval-1)** - User Complete the Request and refer to [Arco Approval](#arco-approval-1) stage.
+         **1-[Complete](#arco-approval-1)** - User Complete the Request and refer to [Arco Approval](#arco-approval-1) stage.
 
 
 - ### **Arco Approval:**
 
-    -  In this stage, Waiting for get ARCO approval for Employee Retirement. once Arco Approval is completed, then request moved to Customer Approval stage.
+    -  In This stage, Waiting for get **ARCO Approval** for Employee Retirement, Once Arco Approval is completed, Then It will moved to **Customer Approval** stage.
 
-    - In Case and Task Management, Retirement Process will move to Customer Approval stage, Customer or User will Approve from Case and Task Management, Once Approved in Case and Task Management, it will moved to UnderProcessing Stage.
+    - **In Case and Task Management**, Waiting to get **ARCO Approval**, and User will **Approve** from HRM.
+    
+    - In Case and Task Management, It will moved to **Customer Approval** Stage, Once the ARCO Approval is completed.
+
+    - **User can move the request to required stage,**
 
        - *In The Action field is following to,*
 
@@ -113,9 +119,13 @@
 
 - ### **Customer Approval:**
 
-    - In this stage, Waiting for Customer Approval to process Retirement. Once the Customer Approved, then moved to under processing stage.
+    - In This stage, Waiting for Customer Approval in Case and Task Management. Once the Customer Approved in Case and Task Mangement, Then it will moved to **UnderProcessing** stage in HRM.
 
-    - In Case and Task Management, Retirement Process will move to Customer Approval stage, Customer or User will Approve from Case and Task Management, Once Approved in Case and Task Management, it will moved to UnderProcessing Stage.
+    - **In Case and Task Management**, Retirement Process will move to **Customer Approval** stage, Customer will **Approve** from Case and Task Management.
+    
+    - Once Approved in Case and Task Management, Then it will moved to **UnderProcess** Stage in Case and Task Management.
+
+    - **User can move the request to required stage,**
 
       - *In The Action field is following to,*
 
@@ -125,12 +135,23 @@
 
 - ### **Under Processing:**
 
-    - The Final Settlement process will create and begins from this **Under Processing** stage with System Integration. when the customer request the Retirement request in Case and Task Management.
+    - In This stage, Waiting to Process the Final Settlement in **Finance Portal**.
 
-    - If the employee request, for Visa and travel from ARCO, and then Visa and Travel process will start for the employee from this stage with system integration.
+    -  In Case and Task Management, waiting to process the request in **Under Process** stage.
 
-    - If the Employee not requested for Visa and Travel from ARCO, Then it will moved directly to **Waiting for travel** stage.
+    - **Once the Final Settlement is completed in Finance Portal**.
+    
+       * In HRM, The Request moved to **Customer Clearance** stage.
 
+       * In Case and Task Management, The Request moved to **Customer Confirmation** stage.
+
+    - And Then **[Final Settlement](#Final-settlement)** process will begins and create from this **Under Processing** stage with System Integration. when the "customer request for Settlement" in Retirement Request from **Case and Task Management**.
+
+    - If Employee request, for **Final Exit-Visa** and **Travel request** from ARCO, Then Final Exit-Visa and Travel request process will start for employee. When **Final Settlement** is completed to Employee.
+
+    - If Customer not request for Clearance, then **Customer Clearance** process will **skipped** and moved to **Waiting for Travel** stage.
+
+    - **User can move the request to required stage,**
 
        - *In The Action field is following to,*
 
@@ -142,12 +163,18 @@
 
 - ### **Customer Clearance:**
 
-     - In this stage, Waiting for Customer Clerance, once clearance is completed by Customer then it will send for ARCO Clearance stage.
 
-     -   In Case and Task Management, Retirement Process will move to Customer Confirmation stage, Customer or User will Approve from Case Management, Once Approved in Case Management, it will moved to Approved for payment Stage.
+    - In This stage, Waiting to process the customer clearance on Final settlement, Once customer clearance completed on Final settlement, Then it will move to **ARCO Clearance** stage.
 
-    - Customer Clearance is optional for employee, and it will process only who requested the Clearance for settlement in Case and task management. Otherwise this clearance stage will be skipped and moved to completed stage.
+    - In Case and Task Management, Retirement request process will move to **Customer Confirmation** stage, then Customer will Approve the request from Case and Task Management.
+    
+    -  In Case and Task Management, Once Customer Approved in customer confirmation stage , then it will moved to **Approved for payment** Stage.
 
+    -  In **Case and Task Management**, Clearance is optional for employee in **Retirement Request**, and it will process who requested the Clearance on Final settlement.
+
+    - Otherwise this Clearance stage will be **skipped** and moved to **completed** stage.
+
+    - **User can move the request to required stage,**
 
        - *In The Action field is following to,*
 
@@ -157,12 +184,21 @@
 
 - ### **Arco Clearance:**
 
-  - In this stage, Waiting For ARCO clearance for Retirement, once the ARCO clearance is completed then it will send for Waiting for travel stage.
 
-  -  In Case and Task Management, Retirement Process will move to Approved for Payment stage, User will Approve from Finance Department, Once Approved in Finance Department, it will moved to Visa Issuance Stage in Case and Task Management.
+    - In This stage, waiting to get **ARCO Clearance** on Final Settlement, Once ARCO complete the Clearance on Settlement, then it will moved to Required stage.
+
+      - In **ARCO Clearance**, Waiting to complete the process in **Finance Department** Approval, If The Finance Depart complete the process, then it will move to **Waiting for Travel** stage
+
+    -  **In Case and Task Management**, Retirement Request will move to **"Approved for Payment"** stage.
+
+       -  Once User Approved from Finance Department, Then it will moved to **Visa Issuance** in Case and Task Management.
 
 
-   - ARCO Clearance is optional for employee, it will process only who requested the Clearance for settlement in Case and task management. Otherwise this clearance stage will be skipped and moved completed stage.
+    - ARCO Clearance is **Optional** for Employee, it will process who requested the Clearance for settlement in Case and Task Management.
+
+    - Otherwise This Clearance stage will be **Skipped** and moved completed stage.
+
+    - **User can move the request to required stage,**
 
        - *In the Action field is Following to,*
 
@@ -172,9 +208,11 @@
 
 - ### **Waiting for Travel:**
 
-    - If Employee went on Vacation, Muqueem Status will change as OutSideKingdom in Muqueem Portal.
+   - If Employee completes service, Retired and Returned, Then **Muqueem Status** will change as **OutSideKingdom** in **Muqueem Portal**.
 
-   - By system schedule will check if muqueem status is Terminated-OutSideKingdom, and Complete the Retirment Process with Travel Date.
+   - By system schedule will Check, if **Muqueem status** is **Terminated-OutSideKingdom**, and Complete the **Retirment Process** with **Travel Date**.
+
+   - **User can move the request to required stage,**
 
       - *In the Action field is Following to,*
 
@@ -184,7 +222,9 @@
 
 - ### **RejectedRequest:**
 
-    - In this stage, rejected request is moved to **"complete"** the stage.
+    - In this stage, rejected request is moved to **"complete"** stage.
+
+   - **User can move the request to next stage,**
 
        - *In the Action field is Following to,*
 
@@ -192,9 +232,13 @@
 
 - ### **Complete:**
 
-     - Completed request is moved to this **"complete"** stage. and use this date for track the status of request.
+     - Completed request is moved to **"complete"** stage.
+     
+     - And Use to track the status of request.
 
-     - Retirement process will complete with **"Final Exit Visa**" and **"Final Settlement"** for Employee.
+     - Then Retirement process will complete with **"Final Exit Visa**" and **"Final Settlement"** for Employee.
+
+     - If Employee requests for **Travel Request** from ARCO, Then It will start to Employee, Once **Final Settlement** process is completed.
 
 | [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#retirement-request) |
 
@@ -204,7 +248,8 @@
 
 > ## **[Final Settlement](#employee-retirement):**
 
-Final settlement is initiated by user or customer from case and Task management, and then payment is completes in Finance portal. once the payment is completed in finance portal. then settlement process will be complete.
+- Final Settlement is initiated by User or Customer from Case and Task Management.
+- And Payment process will start in Finance portal, Once Payment is completed in Pinance portal, Then Final settlement process will be complete to Employee.
 
 
 | [Requested](#requested-4)  > [Clearance Process](#clearance-process) > [Approval](#approval-3) > [Client _ Confirmation](#client_confirmation-1) > [Payment](#payment-3) > [Client Rejection](#client-rejection-1) > [Complete](#complete-3) |
@@ -213,9 +258,13 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Requested:**
 
-    - New request initiated by user or customer from case and task management. and then that Request is waiting for Action,
+    - New request initiated by user or customer from Case and Task Management, And this Request is waiting to process.
 
-    - Retirement Process will move to Finance Approval stage in Case and Task Management.
+    - Then User will move the request to **Clearance_Process** stage.
+
+    -  In Case and Task Management, Retirement Process will move to **Finance Approval** stage.
+
+   - **User can move the request to next stage,**
 
         - *In The Action field is following to,*
 
@@ -223,7 +272,12 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Clearance Process:**
 
-    - In this stage, Clearance Process will start for employee in Clearance Module, once clearance completed then it will send Approval to Finance Department Approval.
+    - In This stage, Clearance Process will start for Employee, and waiting to complete the Clearance in **Clearance Module**, Once Clearance completed, Then it will send Approval to **Finance Department Approval**.
+
+    - In Case of Customer required settlement, Then it will send for approval to **Client Confirmation**, Otherwise it will move and **Complete Without Payment**.
+
+
+    - **User can move the request to next stage,**
 
       - *In The Action field is following to,*
 
@@ -231,9 +285,13 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Approval:**
 
-     - In this stage, Waiting for Finance Approval from Finanace Department for **Final Settlement**. after Finance Department approved, then user complete the request.
+     - In This stage, Waiting to get Finance Approval from Finanace Department for **Final Settlement**, Once **Finance Department** Approved, Then User will complete the request.
 
-     - If do not have any Final Settlement payment for Employee, then the request complete with **Move without Payment**.
+     - Then it will send for **Approval** to **Client Confirmation** stage.
+
+     - If Do not have any **Final Settlement** Payment for Employee, Then this request complete with **Move without Payment**.
+
+     - **User can move the request to next stage,**
 
         - *In The Action field is following to,*
 
@@ -245,10 +303,19 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Client_Confirmation:**
 
-    - Retirement Process will move to Client Confirmation stage in Case and Task Management, Customer or User will Approve from Case and Task Management.
+    - In This stage, Waiting to complete for Client Confirmation.
 
-    -  Once Approved in Case and Task Management, then it will moved to Payment Stage.
+    - User Complete the request with **Client_Confirmation** from **Case and Task Management**.
 
+    - Once Client_Confirmation is completed, Then it will moved to **Finance Department** with **Payment** stage.
+
+    - **In Case and Task Management**, Retirement Process will move to **Customer Confirmation** stage, Customer or User will Approve from Case and Task Management.
+
+    -  Once Approved in Case and Task Management, Then it will moved to **Payment** Stage in HRM.
+
+    - If Customer Reject in Casa and Task Management, Then process will moved to **Client Rejection** stage.
+
+    - **User can move the request to next stage,**
 
        - *In The Action field is following to,*
 
@@ -258,11 +325,17 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Payment:**
 
-   - In Case and Task Management, Retirement Process will move to Approval For Payment stage.
+    - In This stage, Waiting to complete the payment, The payment will process in Finance Department, Once **Payment** is **Completed** in **Finance Department** then it will moved to completed stage.
 
-    - In this stage, waiting for complete the payment in Finance Department, Once payment is Completed in Finance Department, then it will moved to completed stage.
+    - After Payment is completed in Finance Department, Then request has been moved to **Completed** stage.
 
-    - After payment is completed in Finance Department, then request moved to **Completed** stage.
+    - User can compare the **Payment Status** of Vacation Settlement in between the **[Final Settlement](#Final-settlement)** and  **Finance Department**.
+
+      Payment have settled to Employee in Finace Department.
+
+    - In Case and Task Management, Retirment Process will move to **Approved For Payment** stage.
+
+    - **User can move the request to next stage,**
 
 
       - *In The Action field is following to,*
@@ -273,9 +346,12 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Client Rejection:**
 
-     - In Case and Task Management, Retirement Process will move to Customer Rejection stage.
 
-    - Rejeceted Request by Client is moved to this stage, and waiting for resend to customer confirmation.
+     - Pending Requests are reject and moved to **Client Rejection** stage, and holding the request for review and **Resend for Client Confirmation** stage.
+
+     - In Case and Task Management, Retirment Process will move to **Customer Rejection** stage.
+
+    - **User can move the request to required stage**,
 
       - *In The Action field is following to,*
 
@@ -283,11 +359,13 @@ Final settlement is initiated by user or customer from case and Task management,
 
 - ### **Complete:**
 
-     - Completed Request is moved to **"Complete"** Stage, After the Final Settltment process is completed. for use and track the status of request.
+     - Completed Request is moved to **"Complete"** Stage, After the **Final Settltment** process is completed.
+     
+     - And use to Track the status of Request.
 
-    - Once Settlement Completed, if Employee request in Retirement request for **"Visa"**, then Visa process will start for Employee.
+    - Once Final Settlement is Completed, If Employee Requests for **"Travel Request"**, Then Travel request process will start to Employee once **Final Exit visa** process is completed.
     
-    - And If Employee request in Retirement request for **"Travel"** Ticket, then Travel Ticket process will start for Employee.
+    - And If Employee request in Retirement request for **"Travel"** Ticket, Then **Travel Ticket** process will start to Employee once **Final Exit visa** process is completed.
 
 | [Home](#human-resource-management) | [Main](#employee-retirement) | [Back](#final-settlement) |
 

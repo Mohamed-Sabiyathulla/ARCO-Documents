@@ -8,9 +8,13 @@
 
 # **[Travel](#human-resource-management)**
 
-Travel process is begins, when the employee Request Visa from ARCO in the Leave request and Retirement request.
+- **Travel** process is begins, When the Employee Request **Visa** and **Travel Request** from ARCO in **Leave Request** or **Retirement Request**.
 
-Travel Arrangements is applicable for Who on accommadation in Lodging.
+- **Visa** and **Travel request** will start to Employee, When **Settlement** process is completed to Employee.
+
+- Travel request is **Applicable**, for Who on Accommadation in Lodging.
+
+- Travel request is **not Applicable** to apply, for who do not On Accommadation in Lodging.
 
 | [Visa Request](#visa-request) | [Travel Request](#travel-request) |
 
@@ -19,13 +23,21 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 > ## **[Visa Request:](#travel)**
 
 
-  Visa Request initiated and begins in Travel Request when the employee request for the Travel Arrangements from Arco, in Leave request and Employee Retirement request.
+ - **Visa Request** initiated and begins in Travel Process, when Employee requests for **Visa** from **Arco**, in Leave request or Retirement request.
+
+ - **Visa** process will start to Employee, When **Settlement** process is completed to Employee.
 
 | [Requested](#requested) > [Approval](#approval) > [Payment](#payment) > [Under Processing](#under-processing) > [Hold](#hold) > [Completed](#completed) |
 
 - ### **Requested:**
 
-  - Newly initiated request for Visa is received to process from Case and Task Management.
+  - New Request initiated from Case and Task Management for Visa.
+
+  - In This stage, User will move to **Approval** stage.
+
+  - **In Case and Task Management**, Vacation Process will move to **Visa Requested** stage.
+
+   - **User can move the request to next stage**
 
       - *In The action field is following to,*
 
@@ -33,7 +45,9 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Approval:**
 
-     - Waiting for Approval from finance department, once the stage is completed, then it will moved for Payment.
+     - In This stage, Waiting to get Approval from **Finance Department**, Once Finance Department approved for Payment, Then it will moved for **Payment** stage.
+
+   - **User can move the request to next stage**
 
        - *In The action field is following to,*
 
@@ -41,9 +55,13 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Payment:**
 
-     - The Payment request is processing in Finanace Department, once the payment is completed in Finance Department, then the request will moved to Under Processing stage.
+     - The Payment request is processing in **Finanace Department**, once payment is completed in Finance Department, Then request will moved to **Under Processing** stage.
 
-     - User can use to compare the Payment status in between the **Visa Request** and **Finance Department**.
+     - User can use to compare the Payment status, in between the **Visa Request** and **Finance Department**.
+
+     - **In Case and Task Management**, Vacation Process will move to **Visa Under Payment** stage
+
+   - **Once Payment completed in Finance Department then it will move to next with System Integration.**
 
        - *In The action field is following to,*
 
@@ -51,7 +69,16 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Under Processing:**
 
-    - Visa issuance proccess will start in this stage, once the Visa is completed then it will move to completed stage.
+
+  - In This stage, User will create **Muqueem Integration** for **Issuing Visa**, Once Muqueem Visa Completed, Process will moved to **Completed** stage, with **Visa Number** and **Visa Document Attachment**.
+
+   - If User complete The Visa Request Manually from **Muqueem Portal**, Then User will complete by **Complete Action** with **Visa Attachment**.
+
+   - If Visa request is for **Final Exit(Retirement)**, Then **Muqueem Integration** will automatically request by System.
+
+   - **In Case and Task Management**, Vacation Process will move to **Visa for Issuance** stage.
+
+   - **User can move the request to next stage,**
 
       - *In The action field is following to,*
 
@@ -61,7 +88,11 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Hold:**
 
-    - Incompleted request are Holding for Query in this stage.
+    - Incompleted Requests are Holding for Visa related Query purposes in this stage.
+
+    - **In Case and Task Management**, Vacation Process will move to **Visa On Hold** stage.
+
+   - **User can move the request to next stage,**
 
       - *In The action field is following to,*
 
@@ -69,7 +100,17 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Completed:**
 
-     - All completed Request are moved to Completed Stage, After the Visa Request process is completed. and use to track the request status.
+     - Completed Request is moved to **Completed** Stage.
+
+     -  After Visa Request is completed, And Use to track the status of Request.
+
+     - Once **Visa** Completed to Employee, If **Vacation** requests for Travel, then Travel process will start to Employee Vacation.
+     
+     - If Employee requests for **Ticket** in **Vacation process**, then **Travel Ticket** process will start to Employee Vacation if the Visa process is completed.
+
+     - Once **Final Exit Visa** Completed to Employee, If **Retirement** requests for Travel, then Travel process will start to Employee Retirement if **Final settlement** is completed.
+
+     - If Employee requests for **Ticket** in **Retirement process**, then **Travel Ticket** process will start to Employee Retirement if **Final Exit Visa** process is completed.
 
 | [Home](#human-resource-management) | [Main](#travel) | [Back](#visa-request) |
 
@@ -80,15 +121,23 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 > ## **[Travel Request:](#travel)**
 
-The Travel Request will create and begins, When the employee request for the Travel Arrangement from ARCO in Leave Request and Employee Retirement Request.
+**Travel Request** will create and begins, When the employee request for Travel request from ARCO, in **Leave Request** or **Employee Retirement** Request.
 
-Travel Arrangements is applicable for Who on accommadation in Lodging.
+- Travel request is **Applicable**, for Who on Accommadation in Lodging.
+
+- Travel request is **not Applicable** to apply, for who do not On Accommadation in Lodging.
 
 | [Requested](#requested-1) > [Travel Arrangements](#travel-arrangements) > [Approval](#approval-1) > [Payment](#payment-1) > [Complete](#complete) > [Hold](#hold-1) |
 
 - ### **Requested:**
 
-     - Newly initiated request is received for take action in this stage.
+     - New Request Initiated from Case and Task Management for Travel Ticket.
+
+     - In This stage, And User will move to **Travel Arrangements** stage. or **Hold** / **Reject** the Request.
+
+     - **In Case and Task Management**, Travel Request Process will move to **Ticket Requested** stage.
+
+     - **User can move the request to required stage,**
 
        - *In The action field is following to,*
 
@@ -101,7 +150,9 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Travel Arrangements:**
 
-  - In this stage, prepare for the travel arrangements employee.
+  - In This stage, prepare the **Travel Ticket** to Employee for **Vacation/Retirement**.
+
+  - **User can move the request to required stage,**
 
       - *In The action field is following to,*
 
@@ -111,7 +162,11 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Approval:**
 
-     - In this stage waiting for approval from Finanace Departement. once approved in Finance Department, then it will moved to payment stage.
+   - In This stage, Waiting to get Approval from **Finanace Departement** for **Payment**, Once Payment Approved in Finance Department, Then it will moved to **Payment** stage.
+
+   - **In Case and Task Management**, Travel Request Process will move to **Ticket Under Approval** stage.
+
+   - **User can move the request to next stage,**
 
        - *In The action field is following to,*
 
@@ -119,21 +174,31 @@ Travel Arrangements is applicable for Who on accommadation in Lodging.
 
 - ### **Payment:**
 
-     - After payment completed by user in Finance Department, and then request will complete and moved to **Completed** stage.
+   - In This stage, Waiting to complete the **Payment** request in Finance Department.
 
-     - User can use to compare the Payment status in between the **Travel Request** and **Finance Department**.
+   - Once Payment Request is completed for Travel ticket to Employee in Finance Department, Then it will move to **Completed** stage.
 
-        - *In The action field is following to,*
+   - User can use to compare the **Payment status** in between the **Travel Request** and **Finance Department**.
 
-          **1-[Complete](#complete)** - User Complete the Request and moved to [Complete](#complete) stage.
+   - **In Case and Task Management**, Travel Request Process will move to **Ticket for Payment** stage.
+
+   - **User can move the request to next stage,**
+
+     - *In The action field is following to,*
+
+       **1-[Complete](#complete)** - User Complete the Request and moved to [Complete](#complete) stage.
 
 - ### **Complete:**
 
-  - Completed Request is received in Completed Stage, After the Travel Request process is completed.
+  - Completed Request is received in ***Completed*** Stage.
+  
+  - After the Travel Request process is completed.
 
 - ### **Hold:**
 
-     - Pending request is waiting for action, and user decide to resume the request from **Hold** Stage.
+     - In This stage, Pending request is waiting to process for Travel Request, and user decide to **Resume** the request from **Hold** Stage.
+
+   - **In Case and Task Management**, Travel Request Process will move to **Ticket on Hold** stage.
 
        - *In The action field is following to,*
 
