@@ -2,23 +2,24 @@
 # **[REISSUE](#human-resource-management)**
 
 
-Reissue is replace the Damaged or Missing Iqama ID Card, ATM Card and Insurance services for Employee.
+* **Reissue** process is **Replacing** the Damaged or Missed **IQAMA ID Card** and **ATM Card** to Employee.
 
+<br>
 
-| [IQAMA Reissue](#iqama) | [ATM Reissue](#atm-1) |
+| [IQAMA Reissue](#iqama) | [ATM Reissue](#atm) |
 
 
 ### **[IQAMA:](#reissue)**
 
-Iqama is Residential Identification for residents in KSA,
+* IQAMA ID is Identification for residence to residents in KSA.
 
-In case of missing or damaged the Iqama ID card, then employee can request for reissue the ID card.
+* In Case of Employee, Missed or Damaged the IQAMA ID Card, Then He can request to Reissue for New IQAMA ID Card.
 
-And This request will create from Case and Task Management by users and customer from portal.
+* **IQAMA Reissue** Request will create and **initiated** from **Case and Task Management** by **User** and **Customer**.
 
+<br>
 
 | [Newly Requested Reissue](#newly-requested-reissue) > [Followup Dept Approval](#followup-department-approval) > [Manpower Dept Approval](#manpower-department-approval) > [Payment Requested](#payment-requested) > [Waiting for Issue](#waiting-for-issue) > [Receive in Lodging](#receive-in-lodging) > [Put in Envelope](#put-in-envelope) > [Completed](#completed) |
-
 
 <br>
 
@@ -26,17 +27,25 @@ And This request will create from Case and Task Management by users and customer
 
 - ### **Newly Requested Reissue**
 
-    - New request is initiated from case and task management. that cases refer to newly required stage to process the request.
+    - New request initiated from Case and Task Management,
+    And then waiting in **New Request** stage in Case and Task Management.
 
-       - *Request Creation for reissue*
+    - In This stage, User Will move to **Followup Department Approval** stage
 
-         **Employee** - Name / Employee ID / Passport number / Iqama Number / Mobile Number /
 
-         **Re-Issue Type** - Reissue / Damaged.
+    - **Required information to be update while request for IQAMA Reissue:**
 
-         **Re-issue Attachement** - Upload the doc as request to reissue the ID with reason and staff confirmation.
+        * **Employee ID** - (Name / Employee ID / Passport number / Iqama Number / Mobile Number)
 
-         And also The user can modify and edit the details of Request Creation document.
+        * **Date of Request** - Requesting Date for Reissuance.
+
+        * **Re-Issue Type** - Reissue / Damaged.
+
+        * **Re-Issue Attachement** - Upload the doc as request to reissue the ID with reason and staff confirmation.
+
+         And User can modify and Edit the details of Request Creation Document.
+
+     - **User can move the request to required stage,**
 
           - *In The Action field is following to,*
 
@@ -44,62 +53,77 @@ And This request will create from Case and Task Management by users and customer
 
             **2-Reject** - User Reject and complete the Request.
 
-      **After the stage completed by user the refer thr request for get approval from Followup Dept Approval.**
-
 
 
 - ### **Followup Department Approval**
 
-    - The followup department process is to perform the checking and verification with the requested details and then moved to Manpower Dept Approval.
+    - In This stage, Followup Department process to perform the Validate on requested details, and then moved to **Manpower Dept Approval** stage.
 
-    - In this stage The user can modify and edit the details of Request Creation document.
+    - And User can modify and edit the details of Request Creation document.
+
+     - **User can move the request to required stage,**
 
         - *In The Action field is following to,*
 
-        **1-[Approve](#manpower-department-approval)** - User Decide to Approve the request and refer to [Manpower dept Approval](#manpower-department-approval) Stage.
+          **1-[Approve](#manpower-department-approval)** - User Decide to Approve the request and refer to [Manpower dept Approval](#manpower-department-approval) Stage.
 
-        **2-Reject** - User reject and Completethe Request.
+           **2-Reject** - User reject and Completethe Request.
 
 - ### **Manpower Department Approval**
 
-    - The User in ARCO will validate and verify the request for reissue the Iqama for Employee, thereafter validate the request then it will be moved to Payment Requested for Finance Approval in Finance portal.
+    - In This stage, User validate and verify the request for IQAMA Re-issuance to Employee, After Request Validation then it will moved for **Payment** to **Finance Approval** in **Finance portal**.
 
-      - *In The Action field is following to,*
+    - Once Finance Approved for Payment, Then it will move to **Payment Requested** Stage.
 
-        **1-[Approve](#payment-requested)** - User Decide to Approve and refer for [Payment Requested](#payment-requested) stage.
+    - **In Case and Task Mangement**, Reissue process will move to **Payment** stage.
 
-        **2-Reject** - User reject and complete the Request.
+     - **User can move the request to required stage,**
 
-      **After the Request get approved by the user, the request moved into Payment Request.**
+        - *In The Action field is following to,*
+
+          **1-[Approve](#payment-requested)** - User Decide to Approve and refer for [Payment Requested](#payment-requested) stage.
+
+          **2-Reject** - User reject and complete the Request.
 
 
 - ### **Payment Requested**
 
+    - In This stage, Waiting to complete the **Payment** for IQAMA Reissuance, and The Payment will process in Finance Department, Once **Payment** is **Completed** in **Finance Department**, Then it will moved to **Waiting for Issues** stage.
 
-    - User can compare the Payment status of Reissue in between Reissue stage and Finance portal stage.
+    - And User can compare the **Payment status** of Reissue, in between **Reissue** and **Finance Portal**.
 
-    - After the Payment Request is validate by the user in finance portal and then Payment request will be Completed by user in Finance portal for Reissue the Iqama Card.
+    - **In Case and Task Management**, Reissue process Waiting in **Payment** stage, Once payment is completed in Finace portal, Then Reissue process will move to **Re-issuing** stage in Case and Task Management.
 
+
+     - **User can move the request to next stage,**
 
         - *In The Action field is following to,*
 
           **1-[Complete](#waiting-for-issue)** - User Complete the request and refer [Waiting for Issue](#waiting-for-issue) stage.
 
 
-
-    - **After the Payment Request is completed and approved the payment by the user the case moved to Waiting for Issue**
-
-    - **After Payment is completed to Goverment for issuing the Iqama id card, the user will wait for Iqama card to update the details in HRM portal.**
-
-
 - ### **Waiting for Issue**.
 
-    - After Payment is completed to Goverment for issuing the Iqama id card, the user will wait for Iqama card to update the details in HRM portal.
 
-    - In this stage to Waiting for Issue the Iqama card for Employee in Government portal after sucessful payment Request is completed.
+    - In This stage, Waiting to **Reissue** the ***IQAMA ID*** Card to Employee.
 
-    - After the Iqama ID Card will be issued by Government, and this stage completed and moved to the Receive in Lodging.
+    - Once Payment is completed to Goverment for issuing the Iqama ID Card, Then User will wait for Iqama ID Card to **update** the details in **HRM portal**.
 
+    - Once IQAMA ID issued, Then IQAMA Information use to **Import** in this stage into **HRM**, like (Iqama Number/ Issue Date / Expiry Date).
+
+       - **Update with Import Option** -
+    
+         * **Employee Information** - (*Name / Employee ID / Passport number / Iqama Number / Mobile Number*).
+
+         * **Re-Issue Type** - (*Re-Issue / Damage*).
+
+         * **Re-Issue Attachment** - (*Iqama ID Card Attachment*).
+
+    - **In Case and Task Management**, Reissue process Waiting in **Re-issuing** stage, Once IQAMA Card Reissuance is completed to Employee, Then Reissue process will move to **Waiting for Card** stage in Case and Task Management.
+
+    - If Payment **completed** for Re-Issuance, Then it will move to **Receive in Lodging** stage.
+
+    - **User can move the request to required stage,**
 
       - *In The Action field is following to,*
 
@@ -107,54 +131,55 @@ And This request will create from Case and Task Management by users and customer
 
         **2-Reject** - User reject and Complete the Request.
 
-      **The Card will send to Lodging location of employee**
-
 
 - ### **Receive in Lodging**
 
-    - Iqama card details like Iqama no, Expiry and issue date will import with Excel sheet to upload into HRM.
+   - In This stage, Waiting to Receive the IQAMA Card in Lodging.
 
-    - After the Iqama card issued by Government and it will send to Lodging Location of Emloyee.
+   - Once IQAMA ID Card received in Lodging, Then User will move to **Put in Envelope** stage.
 
-    - and then Iqama Card is received in Lodging Location of Employee. and it will prepare to send the Employee Location.
+   -  **In Case and Task Management**, Reissue process waiting in **Waiting for Card** stage, Once IQAMA Card Rececived in Loding, Then Reissue process will move to **Completed** stage in Case and Task Management.
+
+    - **User can move the request to next stage,**
 
       - *In The Action field is following to,*
 
         **1-[Complete](#put-in-envelope)** - User Complete the Request and refer [Put in Envelope](#put-in-envelope) stage.
 
 
-       **After complete the Receiving in Lodging stage the request moves to Put in Envelope.**
-
 - ### **Put in Envelope**
 
-     - In this stage, Iqama document delivery process will start to Employee.
+     - In This stage, Document **Preparation** for **Delivery** process will start to Employee working location with **New [IQAMA](#iqama) ID** Card.
 
-     - Thereafter the Card dispatched from Lodging Location to employee working location of individual customers location.
+     - Once **Document Preparation** is completed for **Delivery**, Then User will move to **Completed** stage.
 
-     - The request is processed from Loding Location to Employee location on Courier facility is completed, the Put in Envelope stage is proceed to completed.
-
+     - **User can move the request to next stage,**
+    - **User can move the request to next stage,**
 
         - *In The Action field is following to,*
 
-          **1-[Complete](#completed)** - User Complete the Request and moved to [Completed](#completed) Stage.
+          **1-[Complete](#completed)** - User Complete and moved to [Completed](#completed) Stage.
 
 - ### **Completed**
 
-     - Completed request have received to track The Request for Iqama reissue status.
+     - Completed request is moved to **Completed** stage.
+     
+     - And User can Track the status of **[IQAMA](#iqama)** Reissuance Request.
 
 | [Home](#human-resource-management) | [Main](#reissue) | [Back](#iqama) |
 
-
-
-
-
+<br>
 <br>
 
 > ## **[ATM:](#reissue)**
 
-Reissue request service is to process to provide ATM Card, new Iqama Id card and Insurance services for employee as replacement due to missing or damaging the id copy or Employee service products.
+* ATM Card, Employee using for essential needs of Financial Transaction related all purposes.
 
-This Request will create from Case Management by Users and request from customer from portal.
+* In Case of Employee, Missed or Damaged the ATM Card, Then He can request to Reissue for New ATM Card.
+
+* **ATM Reissue** Request will create and **initiated** from **Case and Task Management** by **User** and **Customer**.
+
+<br>
 
 | [Newly Required Reissue](#newly-required-reissue) > [Finance Department Approval](#finance-department-approval) > [Payment Requested](#payment-requested-1) > [Receive in Lodging](#receive-in-lodging-1) > [Put in Envelope](#put-in-envelope-1) > [Complete](#complete) |
 
@@ -162,7 +187,14 @@ This Request will create from Case Management by Users and request from customer
 
 - ### **Newly Required Reissue**
 
-   - Newly initiated Request received from Case and Task management and waiting for Action.
+    - New request initiated from Case and Task Management,
+    And then waiting in **New Request** stage in Case and Task Management.
+
+    - **In Case and Task Management**, Reissue process Waiting in **New Request** stage, Then User will move to **Finance Approval** stage in Case and Task Management.
+
+    - In This stage, It Will move to **Finance Department Approval** stage
+
+    - **User can move the request to required stage,**
 
        - *In The Action field is following to,*
 
@@ -173,7 +205,13 @@ This Request will create from Case Management by Users and request from customer
 
 - ### **Finance Department Approval**
 
-   - Required the Approval from the Finance Dept for processing the request for Reissue ATM Card process to employee. the request move forward Payment Request.
+    - In This stage, Waiting to get **Approval** from Finance Department for ATM Card Reissuance to Employee..
+    
+    - Once **Approved** in Finance Department, Then User will move to **Payment** stage.
+
+    - **In Case and Task Management**, Reissue process Waiting in **Finance Approval** stage, Once Approved in Finance Portal, Then Reissue process will move to **Payment** stage in Case and Task Management.
+
+    - **User can move the request to required stage,**
 
        - *In The Action field is following to,*
 
@@ -185,10 +223,14 @@ This Request will create from Case Management by Users and request from customer
 
 - ### **Payment Requested**
 
-   - User can compare the Payment status of reissue in between the  Reissue stage and Finance portal stage.
+    - In This stage, Waiting to complete the **Payment** for ATM Reissuance, and The Payment will process in Finance Department, Once **Payment** is **Completed** in **Finance Department**, Then it will moved to **Receive in Lodging** stage.
 
-  - After the Payment Request is validate and completed by the user in finance portal for Reissue the ATM Card.
-  - user can complete the stage after payment completed.
+    - And User can compare the **Payment status** of Reissue, in between **Reissue** and **Finance Portal**.
+
+    - **In Case and Task Management**, Reissue process Waiting in **Payment** stage, Once payment is completed in Finance Portal, Then Reissue process will move to **Waiting for Card** stage in Case and Task Management.
+
+
+    - **User can move the request to next stage,**
 
       - *In The Action field is following to,*
 
@@ -198,9 +240,14 @@ This Request will create from Case Management by Users and request from customer
 
 - ### **Receive in Lodging**
 
-   - The [ATM](#atm-1) card issued from Bank and it will send to Lodging Location of Emloyee. and then stage completed after the Card receive in Lodging.
 
-   - The ATM Card is received in Lodging Location of Employee. and it will prepare to send the Employee Location.
+   - In This stage, Waiting to Receive the **[ATM](#atm)** Card in Lodging.
+
+   - Once ATM Card received in Lodging, Then User will move to **Put in Envelope** stage.
+
+   - **In Case and Task Management**, Reissue process Waiting in **Waiting for Card** stage, Once ATM Card received in Lodging, Then Reissue process will move to **Completed** stage in Case and Task Management.
+
+   - **User can move the request to next stage,**
 
         - *In The Action field is following to,*
 
@@ -209,17 +256,23 @@ This Request will create from Case Management by Users and request from customer
 
 - ### **Put in Envelope**
 
-  - In this stage, ATM card is prepare for courier transport to Employee Location.
+     - In This stage, Document **Preparation** for **Delivery** process will start to Employee working location with **New [ATM](#atm)** Card.
 
-      - *In The Action field is following to,*
+     - Once **Document Preparation** is completed for **Delivery**, Then User will move to **Completed** stage.
 
-        **1-[Complete](#complete)** - User Complete the request and moved to [Completed](#complete) stage.
+     - **User can move the request to next stage,**
+
+       - *In The Action field is following to,*
+
+         **1-[Complete](#complete)** - User Complete and moved to [Completed](#complete) stage.
 
 
 
 - ### **Complete**
 
-  - The Request for [ATM](#atm-1) Card reissue process has been completed after the ATM Card delivers from Lodging location to the Employee working location.
+     - Completed request is moved to **Completed** stage.
+     
+     - And User can Track the status of **[ATM](#atm)** Reissuance Request.
 
 | [Home](#human-resource-management) | [Main](#reissue) | [Back](#atm-1) |
 

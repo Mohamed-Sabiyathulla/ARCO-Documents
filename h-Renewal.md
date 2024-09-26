@@ -2,7 +2,9 @@
 # **[RENEWAL](#human-resource-management)**
 
 
-Renewal process has processing the renewal to extend the validation of Iqama Id Card, ATM Card and Insurance services for employee.
+* Renewal is process the Renew to extend the validity of IQAMAID Card, ATM Card to Employee.
+
+<br>
 
 | [IQAMA Renewal](#iqama-1) | [ATM Renewal](#atm-2) |
 
@@ -12,7 +14,7 @@ Iqama is essential identification for all individual residents in KSA for reside
 
 For all employee will be renewed Iqama identification in yearly once.
 
-
+<br>
 
 | [Newly Required Renewal](#newly-required-renewal) > [Customer Approval](#customer-approval) > [Iqama Less Then 30 Days](#iqama-less-then-30-days) > [Agree](#agree) > [Work Permit](#work-permit) > [Priority_FinanceApproval](#priority-finance-approval) > [Priority_Request](#priority-request) > [Waiting For Reference Number](#waiting-for-reference-number) > [Iqama Payment](#iqama-payment) > [Iqama Renewal](#iqama-renewal) > [Cases Hold](#cases-hold) > [Not Agree](#not-agree) > [Complete](#complete) |
 
@@ -24,6 +26,8 @@ For all employee will be renewed Iqama identification in yearly once.
 
      - The user can process the request to move into Payment Request after completed in Newly required.
 
+     - **User can move the request to next stage,**
+
        - *In The Action field is following to,*
 
            **1-[Complete](#customer-approval)** - User complete the request and refer [Customer Approval](#customer-approval) stage.
@@ -31,6 +35,8 @@ For all employee will be renewed Iqama identification in yearly once.
 - ### **Customer Approval:**
 
   - The customer and user can creat  e the request for Iqama renewal process in Customer approval and Case and Task management. And the customer or User use to create the request for urgent basis to get Iqama card for employee.
+
+  - **User can move the request to next stage,**
 
      - *In The Action field is following to,*
 
@@ -49,6 +55,8 @@ For all employee will be renewed Iqama identification in yearly once.
 
     -*Work Permit* / *Priority Finance Approval*
 
+  * **User can move the request to next stage,**
+
     - *In The Action field is following to,*
 
       **1-[Move to Work permit](#work-permit)** - The User can validate the status and Complete and move the request to [Work Permit](#work-permit) stage.
@@ -61,6 +69,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
      - In Iqama renewal will receive for process the request in this stage after completed the request in Newly Required and Customer Approval. And User can validate request in this stage and proceed to agree for payment request or decline.
 
+     - **User can move the request to next stage,**
 
        - *In The Action field is following to,*
 
@@ -77,6 +86,8 @@ For all employee will be renewed Iqama identification in yearly once.
 
      - **After this stage is completed then request has moved to request on _**Iqama Payment**_.**
 
+     - **User can move the request to next stage,**
+
        -  *In The Action field is following to,*
 
           **1-[Complete](#iqama-payment)** - User Complete the request and refer [Iqama Payment](#iqama-payment) stage.
@@ -89,6 +100,8 @@ For all employee will be renewed Iqama identification in yearly once.
 - ### **Priority Finance Approval:**
 
     - User has to follow and define the status of the request into the Finance department.
+
+    - **User can move the request to next stage,**
 
       - *In The Action field is following to,*
 
@@ -104,6 +117,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
     - The request is received for processing as **Priority Request**, after complete the validation the user will move the request in **Iqama Payment** as next stage to process.
 
+    - **User can move the request to next stage,**
 
       - *In The Action field is following to,*
 
@@ -121,6 +135,8 @@ For all employee will be renewed Iqama identification in yearly once.
 
     - User use to track the status of Waiting for reference number is additional activity of priority request and waiting for create a reference number for Finance approval.
 
+    - **User can move the request to next stage,**
+
       - *In The Action field is following to,*
 
         **1-[Complete](#iqama-payment)** - User Complete the request and refer [Iqama Payment](#iqama-payment) stage.
@@ -132,6 +148,8 @@ For all employee will be renewed Iqama identification in yearly once.
 
    - User can using to compare the Payment status of renewal for Iqama Card to employee in between the Iqama payment in Renewal and Payment Request in Finance portal.
 
+   - **User can move the request to next stage,**
+
      - *In The Action field is following to,*
 
        **1-[Paid](#iqama-renewal)** - User complete the request and refer to [Iqama Renewal](#iqama-renewal) stage.
@@ -141,9 +159,9 @@ For all employee will be renewed Iqama identification in yearly once.
 
     - The employee Iqama will be import to update in HRM portal after the renewal process is completed in Iqama renewal stage
 
+    - **User can move the request to next stage,**
 
       - *In The Action field is following to,*
-
 
         **1-[Complete](#complete)** – User complete the request and moved into [Complete](#complete) stage.
 
@@ -159,6 +177,8 @@ For all employee will be renewed Iqama identification in yearly once.
    - The hold request are received from **Iqama Renewal** stage
    - Pending request are waiting to process in **Cases Hold** stage in Iqama renewal process.
 
+   - **User can move the request to next stage,**
+
      - *In The Action field is following to,*
 
        **1-[Resume](#iqama-renewal)** - User complete the request and refer [Iqama Renewal](#iqama-renewal) stage.
@@ -171,6 +191,8 @@ For all employee will be renewed Iqama identification in yearly once.
     - The Request is processed and moved by user from **Agree** Stage to waiting get confirmation to proceed the Iqama renewal process.
 
     - In case of customer confirmed  the requirements then user can proceed the request to **Agree** and move forward to **Iqama renewal** process.
+
+    - **User can move the request to next stage,**
 
        - *In The Action field is following to,*
 
@@ -196,6 +218,8 @@ For all employee will be renewed Iqama identification in yearly once.
 
 ATM card is using for Employee payment transAction through online and other necessities , and after get expired the ATM Card will request start the Renewal Process for ATM Card for Employee.
 
+<br>
+
 | [Finance Department Approval](#finance-department-approval) > [Manpower Department Approval](#manpower-department-approval) > [Payment Requested](#payment-requested) > [Receive in Lodging](#receive-in-lodging) > [Put in Envelope](#put-in-envelope) > [Hold](#hold) > [Complete](#complete-1) |
 
 <br>
@@ -203,6 +227,8 @@ ATM card is using for Employee payment transAction through online and other nece
 - ### **Finance Department Approval**
 
     - User create the request to get approval from the Finance department. After the request approved by finance department will start Renewal process of ATM Card for Employee.
+
+    - **User can move the request to next stage,**
 
       - *In The Action field is following to,*
 
@@ -214,6 +240,8 @@ ATM card is using for Employee payment transAction through online and other nece
 - ### **Manpower Department Approval**
 
     - In this stage User can proceed the request to processing the ATM Card renewal after validates the request with employee working status and preference.
+
+    - **User can move the request to next stage,**
 
       - *In The Action field is following to,*
 
@@ -229,6 +257,8 @@ ATM card is using for Employee payment transAction through online and other nece
 
     - User can using to compare the Payment status of renewal for ATM Card to employee in between the **Payment Requested in Renewal and Payment Request in Finance portal.**
 
+    - **User can move the request to next stage,**
+
       - *In The Action field is following to,*
 
         **1-[Paid](#receive-in-lodging)** - User complete the request and refer [Receive in Lodging](#receive-in-lodging) stage.
@@ -242,6 +272,8 @@ ATM card is using for Employee payment transAction through online and other nece
      - The ATM Card have receive in lodging location of employee after **Payment Request** completed by the User is confirm the ATM card received in Lodging and complete the stage.
 
      - After ATM card received in Lodging location then ATM Card data using to import in HRM for Employee payment transAction purposes.
+
+     - **User can move the request to next stage,**
 
         - *In The Action field is following to,*
 
@@ -257,6 +289,8 @@ ATM card is using for Employee payment transAction through online and other nece
 
    -   In this stage, ATM card is prepare for courier transport to Employee Location.
 
+   - **User can move the request to next stage,**
+
        - *In The Action field is following to,*
 
          **1-[Complete](#complete-1)** - User complete the request and moved to [Complete](#complete-1) stage.
@@ -265,6 +299,8 @@ ATM card is using for Employee payment transAction through online and other nece
 - ### **Hold**
 
     - In this stage, User hold request for requirement and clarication from customer.
+
+    - **User can move the request to next stage,**
 
       - *In The Action field is following to,*
 

@@ -393,8 +393,6 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
     - **User can move the request to next stage**
 
-    - 
-
       - *In The action field is following to,*
 
         **1-[Move to  Waiting for Return](#waiting-for-return)** - User dicided and refer to [Waiting for Return](#waiting-for-return) stage.
@@ -419,7 +417,7 @@ New request created in Case and Task Management and then it will moved to **ARCO
 
 - ### **Visa Expired:**
 
-    - In this stage, ERE Visa expired is received to extend the validation
+    - In this stage, ERE Visa expired is received to extend the validation.
 
     - If **Exit Re-Entry** date is expired and **Muqeem** is expired, then that request is moved to **Visa Expired** stage.
 

@@ -38,15 +38,15 @@
 
     **1- Labour ID,**
 
-    - Unique Identification Number provided by organization to Employee.
+    - Unique **Identification Number** provided by organization to Employee.
 
     **2- Request Date,**
 
-    - Required the Date of request for Retirement process.
+    - Required the **Date of Request** for Retirement process.
 
     **3- Expected Date of Leaving,**
 
-    - Expected Date of Leaving from Organization.(Particular Date for Leaving)
+    - Expected Date of Leaving from Organization.(Particular Leaving Date)
 
     **4- EOS Category,**
 
@@ -66,15 +66,15 @@
 
    **6- Need Settlement,**
 
-   - Settlement is Settle from Organization in Employee Retirement to Employee.
+   - **Final Settlement** is Settle from Organization in Retirement to Employee.
 
    **7- Need Travel Arrangements,**
 
-   - Travel is **Optional** to request from Organization in Retirement process to Employee.
+   - Travel is **Optional** request from Organization in Retirement process to Employee.
 
    **8- Need Exit,**
 
-   - Final Exit Visa is Afford from Organization in Retirement process to Employee.
+   - **Final Exit Visa** is Afford from Organization in Retirement process to Employee.
 
    **9- Need Clearance,**
 
@@ -87,6 +87,8 @@
 | [New Request](#new-request) > [Arco Approval](#arco-approval-1) > [Customer Approval](#customer-approval-1) > [Under Processing](#under-processing-2) > [Customer Clearance](#customer-clearance-1) > [Arco Clearance](#arco-clearance-1) > [Waiting for Travel](#waiting-for-travel-1) > [RejectedRequest](#rejectedrequest) > [Complete](#complete-4) |
 
 <br>
+
+## *Retirment-Workflow:*
 
 - ### **New Request:**
 
@@ -248,8 +250,9 @@
 
 > ## **[Final Settlement](#employee-retirement):**
 
-- Final Settlement is initiated by User or Customer from Case and Task Management.
-- And Payment process will start in Finance portal, Once Payment is completed in Pinance portal, Then Final settlement process will be complete to Employee.
+- Final Settlement is initiated by **User** or **Customer** from **Case and Task Management.**
+
+- And **Payment** process will start in **Finance Portal**, Once Payment is completed in Finance Portal, Then Final Settlement process will be complete to **Employee Retirement**.
 
 
 | [Requested](#requested-4)  > [Clearance Process](#clearance-process) > [Approval](#approval-3) > [Client _ Confirmation](#client_confirmation-1) > [Payment](#payment-3) > [Client Rejection](#client-rejection-1) > [Complete](#complete-3) |
