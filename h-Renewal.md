@@ -2,7 +2,7 @@
 # **[RENEWAL](#human-resource-management)**
 
 
-* Renewal is process the Renew to extend the validity of IQAMAID Card, ATM Card to Employee.
+* Renewal is process to Renew and extend the validity of IQAMA ID Card, ATM Card to Employee.
 
 <br>
 
@@ -10,9 +10,26 @@
 
 > ## **[IQAMA:](#renewal)**
 
-Iqama is essential identification for all individual residents in KSA for residence permit.
+* **Iqama ID** is essential Individual Identification to Non-KSA Nationals as Residential Permit to Work in KSA.
 
-For all employee will be renewed Iqama identification in yearly once.
+* Renewal period is **Selectable** for Iqama Renewal to Employee.
+
+  * Employee can **Select** the Particular Time period to pay for **Iqama Renewal** As,
+
+    *  ( 3Months or 6Months or 9Months or 12Months )
+
+*  Customer or User can create a **New Request** for Iqama Renewal from **Case and Task Management**.
+
+* **User Required Information to move for *Priority Finance Approval* for Iqama Renewal:**
+
+    * If User move to Priority Finance Approval, Then user will update the **Priority Reason** and **Iqama Period**,
+
+       * **Pririty Reason:**
+           * *ERE Exit* (or) *Family Visa* (or) *Goverment Permits* (or) *VIP Clients*.
+
+       * **Iqama Period:**
+            * *3Months* (or) *6Months* (or) *9Months* (or) *12Months*.
+
 
 <br>
 
@@ -22,11 +39,11 @@ For all employee will be renewed Iqama identification in yearly once.
 
 - ### **Newly Required Renewal:**
 
-     - The system can start the renewal process in less then 60 days to employee for expire the Iqama validation, and creating the new request to start the Iqama renewal process.
+    - In This stage, System can start Renewal process in less then 60 Days to Employee for expire the Iqama validity, and creating a new request to start the **Iqama Renewal** process.
 
-     - The user can process the request to move into Payment Request after completed in Newly required.
+    - The user will move to **Customer Approval** stage.
 
-     - **User can move the request to next stage,**
+    - **User can move the request to next stage,**
 
        - *In The Action field is following to,*
 
@@ -34,9 +51,30 @@ For all employee will be renewed Iqama identification in yearly once.
 
 - ### **Customer Approval:**
 
-  - The customer and user can creat  e the request for Iqama renewal process in Customer approval and Case and Task management. And the customer or User use to create the request for urgent basis to get Iqama card for employee.
+   - In This stage, Waiting for Customer Approval for Iqama Renewal, Once Customer Approved then it will move to **Agree** or **Priority Finance Approval** stage.
 
-  - **User can move the request to next stage,**
+   - If User move to **Agree** stage, Then user need to update **Iqama Period**.
+
+      * User will **Select** the option for **Iqama Renewal** As,
+
+        ( 3Months or 6Months or 9Months or 12Months )
+
+   - If The Customer requires to **prioratize** the Iqama Renewal process, Then user will move to **Priority Finance Approval** stage.
+
+   - **User Required Information to move for *Priority Finance Approval* for Iqama Renewal:**
+ 
+      * If User move to Priority Finance Approval, Then user will update the **Priority Reason** and **Iqama Period**,
+
+        * **Pririty Reason:**
+            * *ERE Exit* (or) *Family Visa* (or) *Goverment Permits* (or) *VIP Clients*.
+
+         * **Iqama Period:**
+            * *3Months* (or) *6Months* (or) *9Months* (or) *12Months*.
+
+
+  - Or It will **reject** and moved to **Not Agree** stage.
+
+  - **User can move the request to required stage,**
 
      - *In The Action field is following to,*
 
@@ -49,27 +87,61 @@ For all employee will be renewed Iqama identification in yearly once.
 
 - ### **Iqama Less then 30 Days:**
 
-  - The request is moved by system automation working from **Newly required Renewal** to **Iqama less then 30 Days** before 30 days to expire the Iqama validation for employee.
+  - In This stage, The request is moved by **System Integration**, from **Newly required Renewal** to **Iqama less then 30 Days** when Employee's IQAMA ID in before **30Days to Expiry**.
 
-    And filtered the cases and divide the requests with two categories:
+  - Then User will move to **Work Permit** stage.
 
-    -*Work Permit* / *Priority Finance Approval*
+     - If User move to **Work Permit** stage, Then user need to update **Iqama Period**.
 
-  * **User can move the request to next stage,**
+        * User will **Select** the option for **Iqama Renewal** As,
+  
+           ( 3Months or 6Months or 9Months or 12Months )
+
+   - If The Customer requires to **prioratize** the Iqama Renewal process, Then user will move to **Priority Finance Approval** stage.
+
+       * If User move to Priority Finance Approval, Then user will update the **Priority Reason** and **Iqama Period**,
+
+         * **Pririty Reason:**
+
+            *ERE Exit* (or) *Family Visa* (or) *Goverment Permits* (or) *VIP Clients*.
+
+          * **Iqama Period:**
+
+            *3Months* (or) *6Months* (or) *9Months* (or) *12Months*.
+
+  * **User can move the request to required stage,**
 
     - *In The Action field is following to,*
 
-      **1-[Move to Work permit](#work-permit)** - The User can validate the status and Complete and move the request to [Work Permit](#work-permit) stage.
+      **1-[Move to Work permit](#work-permit)** - The User Complete and move to [Work Permit](#work-permit) stage.
 
-      **2-[Priority Finance Approval](#priority-finance-approval)** - The User can verify the case status and complete to get [Priority Finance Approval](#priority-finance-approval) stage.
+      **2-[Priority Finance Approval](#priority-finance-approval)** - The User  complete and moved to [Priority Finance Approval](#priority-finance-approval) stage.
 
-    **After processed the case is moved to either** **Work Permit** or **Priority Finance Approval**.
 
 - ### **Agree:**
 
-     - In Iqama renewal will receive for process the request in this stage after completed the request in Newly Required and Customer Approval. And User can validate request in this stage and proceed to agree for payment request or decline.
+     - In This stage, User will move to **Work Permit** stage.
 
-     - **User can move the request to next stage,**
+       - If User move to **Work Permit** stage, Then User need to update **Iqama Period**.
+
+          * User will **Select** the option for **Iqama Renewal** As,
+  
+            ( 3Months or 6Months or 9Months or 12Months )
+
+     - If The Customer requires to **prioratize** the Iqama Renewal process, Then user will move to **Priority Finance Approval** stage.
+
+       * If User move to Priority Finance Approval, Then user will update the **Priority Reason** and **Iqama Period**,
+
+         * **Pririty Reason:**
+
+            *ERE Exit* (or) *Family Visa* (or) *Goverment Permits* (or) *VIP Clients*.
+
+          * **Iqama Period:**
+
+            *3Months* (or) *6Months* (or) *9Months* (or) *12Months*.
+
+
+     - **User can move the request to required stage,**
 
        - *In The Action field is following to,*
 
@@ -82,11 +154,16 @@ For all employee will be renewed Iqama identification in yearly once.
 
 - ### **Work Permit:**
 
-     - Renewal process is progress on Work Permit and the request received from **Iqama less then 30 Days** to complete with urgent basis.
+     - In This stage, User will move to Finance Department for **Iqama Payment** stage.
 
-     - **After this stage is completed then request has moved to request on _**Iqama Payment**_.**
+       - If User move to **Iqama Payment** stage, Then User need to update **Iqama Period**.
 
-     - **User can move the request to next stage,**
+          * User will **Select** the option for **Iqama Renewal** As,
+  
+           ( 3Months or 6Months or 9Months or 12Months )
+
+
+     - **User can move the request to required stage,**
 
        -  *In The Action field is following to,*
 
@@ -99,25 +176,37 @@ For all employee will be renewed Iqama identification in yearly once.
 
 - ### **Priority Finance Approval:**
 
-    - User has to follow and define the status of the request into the Finance department.
+   - In This stage, Waiting to get **Approval** from **Finanace Department** to **Prioratize** the Iqama Renewal.
 
-    - **User can move the request to next stage,**
+   - Once Approved in Finance Department, Then User Will move to **Priority Request** stage.
+
+     * And User will move the request to **Priority Request** stage with  following information:
+
+          * **Pririty Reason:**
+
+             *ERE Exit* (or) *Family Visa* (or) *Goverment Permits* (or) *VIP Clients*.
+
+          * **Iqama Period:**
+
+            *3Months* (or) *6Months* (or) *9Months* (or) *12Months*.
+
+    - **User can move the request to required stage,**
 
       - *In The Action field is following to,*
 
           **1-[Approve](#priority-request)** - User approve and complete the request and refer to [Priority Request](#priority-request) stage.
 
-         **2-[Reject – Previous Stage](#customer-approval)** - User Reject and return the request refer to [Customer Approval](#customer-approval) stage. In case of this request is required clarificaion.
+         **2-[Reject – Previous Stage](#customer-approval)** - User Reject and return the request refer to [Customer Approval](#customer-approval) stage. In case of required any clarificaion.
 
-      **In this stage the user complete the stage and create the request as priority request to complete the payment request on priority**
 
 
 - ### **Priority Request:**
 
+    - In This stage, User validate the request to **Prioratize** for Iqama Renewal.
 
-    - The request is received for processing as **Priority Request**, after complete the validation the user will move the request in **Iqama Payment** as next stage to process.
+    - Once User validate the request, Then move to Finance Department as **Proirity Request**. Then moved to **Iqama Payment** stage.
 
-    - **User can move the request to next stage,**
+    - **User can move the request to required stage,**
 
       - *In The Action field is following to,*
 
@@ -132,8 +221,7 @@ For all employee will be renewed Iqama identification in yearly once.
 
 - ### **Waiting For Reference Number:**
 
-
-    - User use to track the status of Waiting for reference number is additional activity of priority request and waiting for create a reference number for Finance approval.
+    - In This stage, Iqama Renewal process is waiting for **Referenece Number**, once Reference Number generated, then it will move to **Iqama Payment** stage.
 
     - **User can move the request to next stage,**
 
@@ -144,9 +232,13 @@ For all employee will be renewed Iqama identification in yearly once.
 
 - ### **Iqama Payment:**
 
-    - After the Iqama payment request validation is completed by the user in finance portal and then Payment will be completed by user in Finance portal for renewal process of the Iqama Card will start in government portal after payment.
+    - In This stage, Waiting to complete the payment for Iqama Renewal, The payment will process in Finance Department, Once **Payment** is **Completed** in **Finance Department** then it will move to **Iqama Renewal** stage.
 
-   - User can using to compare the Payment status of renewal for Iqama Card to employee in between the Iqama payment in Renewal and Payment Request in Finance portal.
+    - After Payment is completed in Finance Department, Then request has been moved to **Iqama Renewal** stage.
+
+    - User can compare the **Payment Status** of Iqama Renewal in between the **[Iqama Renewal](#iqama-renewal)** and  **Finance Department**.
+
+
 
    - **User can move the request to next stage,**
 
@@ -157,9 +249,11 @@ For all employee will be renewed Iqama identification in yearly once.
 
 - ### **Iqama Renewal:**
 
-    - The employee Iqama will be import to update in HRM portal after the renewal process is completed in Iqama renewal stage
+    - In This stage, Iqama ID Card information **Import** into **HRM**, Once Iqama Card Renewal is completed to Employee.
+    
+    - **And Muqeem Request will create with System Integration, If do not create and complete the Muqeem Request with System Integration, Then it will create and complete by User in manually.**
 
-    - **User can move the request to next stage,**
+    - **User can move the request to required stage,**
 
       - *In The Action field is following to,*
 
@@ -167,17 +261,14 @@ For all employee will be renewed Iqama identification in yearly once.
 
         **2-[Hold](#cases-hold)** - User hldthe request and moved to [Cases Hold](#cases-hold) stage.
 
-      In this stage, the user complete the request and move into **Completed** stage.
-
-      **In this Renewal stage system will create the muqeem in automation function. if still not created or finding error while performing to create muqeem, then the user will create the muqeem status manually and proceed complete the request in Iqama Renewal.**
-
 
 - ### **Cases Hold:**
 
-   - The hold request are received from **Iqama Renewal** stage
-   - Pending request are waiting to process in **Cases Hold** stage in Iqama renewal process.
+   - In This stage, Hold request are moved from Cases Hold stage.
 
-   - **User can move the request to next stage,**
+   - And Pending request are waiting to process in **Cases Hold** stage for Iqama renewal process.
+
+   - **User can move the request to required stage,**
 
      - *In The Action field is following to,*
 
